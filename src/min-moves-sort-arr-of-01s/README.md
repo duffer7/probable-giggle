@@ -15,8 +15,6 @@ The **linear counting** method calculates the minimum number of adjacent swaps b
 
 This approach is optimal for large arrays and very straightforward to implement.
 
----
-
 ## 📌 Position Summation Approach
 
 The **position summation** method compares the actual positions of elements with their ideal positions in a sorted array:
@@ -33,8 +31,6 @@ The **position summation** method compares the actual positions of elements with
 - Space: `O(n)` (storing indices)
 
 This approach is intuitive and makes the swap calculation explicit by aligning positions.
-
----
 
 ## 📊 Comparison
 
