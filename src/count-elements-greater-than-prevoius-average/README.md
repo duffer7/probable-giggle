@@ -10,7 +10,7 @@ The first element is skipped since it has no preceding values.
 
 ## 🧮 Algorithm
 
-1. Initialize a counter `count = 0` and a running sum `sum = 0`.
+1. Initialize a counter `count = 0` and a running sum `sum = first element`.
 2. Iterate through the array starting from index `1` (skip the first element).
 3. For each element:
     - Compute the average of all previous elements: `avg = sum / i`.
