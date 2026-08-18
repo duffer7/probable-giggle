@@ -1,0 +1,41 @@
+{
+  "name": "probable-giggle",
+  "version": "1.0.0",
+  "description": "Personal repository for various tasks and exercises aimed at continuous self‑development.",
+  "homepage": "https://github.com/duffer7/probable-giggle#readme",
+  "bugs": {
+    "url": "https://github.com/duffer7/probable-giggle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duffer7/probable-giggle.git"
+  },
+  "license": "ISC",
+  "author": "duffer7",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.67.0",
+    "@typescript-eslint/parser": "^8.67.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.11.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0",
+    "prettier": "^3.9.6",
+    "typescript-eslint": "^8.67.0"
+  }
+}
