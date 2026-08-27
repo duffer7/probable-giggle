@@ -9,15 +9,11 @@ A TypeScript solution to remove the $k$-th node from the end of a singly linked 
 | **Time Complexity**  | **$O(N)$** | Traverses the linked list in a single pass of $N$ nodes    |
 | **Space Complexity** | **$O(1)$** | Uses two pointer variables without extra memory allocation |
 
----
-
 ## 📌 Problem Statement
 
 Given the head of a singly linked list and an integer $k$, remove the $k$-th node from the end of the list in one traversal and return the updated head.
 
 - If $k$ is invalid (e.g., $k \le 0$ or $k$ is greater than the list length), return the original list.
-
----
 
 ## 🚀 Implementation
 
