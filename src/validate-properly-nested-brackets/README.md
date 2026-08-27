@@ -9,8 +9,6 @@ A lightweight, efficient TypeScript utility to check whether all brackets (`()`,
 | **Time Complexity**  | **$O(N)$** | Single-pass string sanitization and stack iteration ($N$ is string length) |
 | **Space Complexity** | **$O(N)$** | Used for storing filtered brackets and stack elements                      |
 
----
-
 ## 📌 Problem Statement
 
 Given a string containing brackets along with arbitrary characters, determine if the brackets are correctly paired and nested according to standard syntax rules.
