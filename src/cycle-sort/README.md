@@ -2,7 +2,6 @@
 
 A TypeScript implementation of the **Cycle Sort** algorithm. Cycle Sort is an in-place, non-stable sorting algorithm that is theoretically optimal in terms of the total number of memory writes.
 
----
 
 ## 📌 Description
 
@@ -12,7 +11,6 @@ Cycle Sort is based on the idea that the array to be sorted can be divided into 
 
 Unlike algorithms like QuickSort or MergeSort, Cycle Sort performs **at most $O(N)$ memory writes**. Each element is written to its final destination **at most once** (if it's not already in place).
 
----
 
 ## 🛠️ How It Works
 
