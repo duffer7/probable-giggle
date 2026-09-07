@@ -13,7 +13,7 @@ Collect and organize all valuable tasks in one place to prevent them from being 
 
 ## 🛠️ Stack
 Primarily:
-- **JavaScript / TypeScript**
+- **TypeScript**
 - **Node.js**
 
 Additional tools and technologies may be added as tasks evolve.
